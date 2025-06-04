@@ -30,5 +30,5 @@ A simple RESTful API for a Book Review platform built with Node.js, Express, Mon
 ### 1. Clone the repo
 
 ```bash
-git clone 
+git clone https://github.com/brawler079/Book-Review-API.git
 cd book-review-api
