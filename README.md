@@ -42,7 +42,7 @@ npm install
 ### 3. Environment variables
 
 ```.env
-MONGO_URI=mongodb+srv://anandabhilakshay:anand2711@cluster0.g4bqtlt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=your_mongodb_uri
 JWT_SECRET=JzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva
 PORT=3001
 ```
