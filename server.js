@@ -21,8 +21,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Routes
 app.use('/api', authRoutes);         
-// app.use('/api/books', bookRoutes);   
-// app.use('/api', reviewRoutes);       
+app.use('/api/books', bookRoutes);   
+app.use('/api', reviewRoutes);       
 
 // Default route
 app.get('/', (req, res) => {
